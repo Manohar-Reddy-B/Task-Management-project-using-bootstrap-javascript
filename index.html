@@ -37,7 +37,7 @@
                     </div>
                 </div> 
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">SAVE</button>
+                    <button onclick="addCard()" type="button" class="btn btn-primary" data-bs-dismiss="modal">SAVE</button>
                 </div>
             </div>
         </div>
@@ -63,7 +63,7 @@
     
     <main class="container">
         <section>
-            <div class="row">
+            <div class="row" id="taskContent">
                 <div class="col-md-6 col-lg-4 mt-3">
                     <div class="card">
                         <div class="card-header">
@@ -88,77 +88,6 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-4 mt-3">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="d-flex justify-content-end">
-                                <button class="btn btn-outline-info">
-                                    <i class="fa fa-pencil"></i>
-                                </button>
-                                <button class="btn btn-outline-danger">
-                                    <i class="fa fa-trash"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <img class="card-img-top"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrv59fRmsmPLy3Qb5qUoGZTRas1HYmgOuYIzm58S8yQVZgaC5pBM9zC5ZlHuQf-x5CYkA&usqp=CAU" alt="Task img">
-                        <div class="card-body">
-                            <h5 class="card-title">Task Title</h5>
-                            <p class="card-text">Task Description</p>
-                            <span class="badge bg-primary">Task-type</span>
-                        </div>
-                        <div class="card-footer">
-                            <button class="btn btn-outline-primary float-end">OPEN TASK</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4 mt-3">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="d-flex justify-content-end">
-                                <button class="btn btn-outline-info">
-                                    <i class="fa fa-pencil"></i>
-                                </button>
-                                <button class="btn btn-outline-danger">
-                                    <i class="fa fa-trash"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <img class="card-img-top"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrv59fRmsmPLy3Qb5qUoGZTRas1HYmgOuYIzm58S8yQVZgaC5pBM9zC5ZlHuQf-x5CYkA&usqp=CAU" alt="Task img">
-                        <div class="card-body">
-                            <h5 class="card-title">Task Title</h5>
-                            <p class="card-text">Task Description</p>
-                            <span class="badge bg-primary">Task-type</span>
-                        </div>
-                        <div class="card-footer">
-                            <button class="btn btn-outline-primary float-end">OPEN TASK</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4 mt-3">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="d-flex justify-content-end">
-                                <button class="btn btn-outline-info">
-                                    <i class="fa fa-pencil"></i>
-                                </button>
-                                <button class="btn btn-outline-danger">
-                                    <i class="fa fa-trash"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <img class="card-img-top"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrv59fRmsmPLy3Qb5qUoGZTRas1HYmgOuYIzm58S8yQVZgaC5pBM9zC5ZlHuQf-x5CYkA&usqp=CAU" alt="Task img">
-                        <div class="card-body">
-                            <h5 class="card-title">Task Title</h5>
-                            <p class="card-text">Task Description</p>
-                            <span class="badge bg-primary">Task-type</span>
-                        </div>
-                        <div class="card-footer">
-                            <button class="btn btn-outline-primary float-end">OPEN TASK</button>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
     </main>
@@ -169,6 +98,7 @@
 
 
     <!-- JavaScript Bundle with Popper -->
+<script src="index.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
