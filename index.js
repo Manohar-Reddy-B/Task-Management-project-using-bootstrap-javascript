@@ -117,12 +117,7 @@ const saveEditTask =(e) =>{
     e.parentNode.parentNode.childNodes[7].childNodes[1].setAttribute("onclick","openModal(this)")
     e.parentNode.parentNode.childNodes[7].childNodes[1].setAttribute("data-bs-toggle","modal");
     e.parentNode.parentNode.childNodes[7].childNodes[1].setAttribute("data-bs-target","#openTask");
-
-    // e.parentNode.parentNode.childNodes[7].childNodes[1].setAttribute("onclick","openModal(this)")
-
-    // e.parentNode.parentNode.parentNode.childNodes[5].childNodes[1].setAttribute("contenteditable","true")
-    // e.parentNode.parentNode.parentNode.childNodes[5].childNodes[3].setAttribute("contenteditable","true")
-    // e.parentNode.parentNode.parentNode.childNodes[5].childNodes[5].setAttribute("contenteditable","true")
+    
 }
 
 const openModal =(e)=>{
