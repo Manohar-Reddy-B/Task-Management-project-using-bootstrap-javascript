@@ -63,14 +63,7 @@ const deleteTask = (e)=>{
 }
 
 const editTask = (e)=>{
-    // const targetId = e.getAttribute("name")
-    // console.log(e)
-    // console.log(e.parentNode)
-    // console.log(e.parentNode.parentNode)
-    // console.log(e.parentNode.parentNode.parentNode)
-    // console.log(e.parentNode.parentNode.parentNode.childNodes[5].childNodes[1])
-    // console.log(e.parentNode.parentNode.parentNode.childNodes[5].childNodes[3])
-    // console.log(e.parentNode.parentNode.parentNode.childNodes[5].childNodes[5])
+
     e.parentNode.parentNode.parentNode.childNodes[5].childNodes[1].setAttribute("contenteditable","true")
     e.parentNode.parentNode.parentNode.childNodes[5].childNodes[3].setAttribute("contenteditable","true")
     e.parentNode.parentNode.parentNode.childNodes[5].childNodes[5].setAttribute("contenteditable","true")
